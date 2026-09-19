@@ -10,14 +10,32 @@
 <body>  
   
   <h1>My Store</h1> 
-  <div class="product-form"></div>
-<input id="product-name" placeholder="Product name">  
+  <input id="product-name" placeholder="Product name">
+
+<select id="currencySelect">
+  <option value="₦">₦ Nigerian Naira</option>
+  <option value="$">$ US Dollar</option>
+  <option value="€">€ Euro</option>
+  <option value="£">£ British Pound</option>
+</select>
+
 <input id="product-price" placeholder="Price">
+
 <input id="product-brand" placeholder="Brand">
-<input id="product-category" placeholder="Category">  
-  
-<button id="add-product">Add Product</button>  
-  <div id="product-list"></div>  
+
+<select id="product-category">
+  <option value="">Select Category</option>
+  <option value="Electronics">Electronics</option>
+  <option value="Clothing">Clothing</option>
+  <option value="Beauty">Beauty</option>
+  <option value="Food">Food</option>
+  <option value="Furniture">Furniture</option>
+  <option value="Books">Books</option>
+</select>
+
+<button id="add-product">Add Product</button>
+
+<div id="product-list"></div>
   <script src="tech.js"></script>  
 </body>  
 </html>
